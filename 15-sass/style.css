@@ -1,0 +1,21 @@
+#container {
+  width: 900px; }
+  #container nav {
+    min-width: 300px;
+    float: left; }
+    #container nav ul {
+      border-color: black;
+      border-width: 3px; }
+      #container nav ul li {
+        background-color: gray; }
+  #container #content {
+    min-width: 600px;
+    float: left; }
+    #container #content h1 {
+      color: gray; }
+    #container #content p {
+      text-align: justify; }
+  #container footer {
+    width: 100%;
+    text-align: right;
+    clear: both; }
