@@ -1,0 +1,33 @@
+@import '../node_modules/nib/index'
+
+border_and_bg(border_on, border_color, bg_on, bg_color)
+	if border_on == true
+		border 1px solid border_color
+	else
+		border 0
+	if bg_on == true
+		background_color bg_color
+	else
+		background_color transperent
+
+function-name(parameter)
+	6 + parameter / 3
+
+.callem
+	border_and_bg true #000 false #fff
+	font-size function-name(6)
+
+.onemorepaddedbox
+	padding-left 20px
+	padding-right 30px
+	width 1200px - @padding-left - @padding-right
+
+//using nib
+body
+	background linear-gradient(top, white, black)
+
+#back-to-top 
+	fixed bottom 10px right 5px
+
+.clearfix
+	clearfix()
