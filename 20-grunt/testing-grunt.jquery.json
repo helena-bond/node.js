@@ -1,0 +1,26 @@
+{
+  "name": "testing-grunt",
+  "title": "Testing Grunt",
+  "description": "The best jQuery plugin ever.",
+  "version": "0.1.0",
+  "homepage": "https://github.com/helena-bond/node.js",
+  "author": {
+    "name": "Elena Bondarenko",
+    "email": "crazypunkbaby@gmail.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/helena-bond/node.js.git"
+  },
+  "bugs": "https://github.com/helena-bond/node.js/issues",
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/helena-bond/node.js/blob/master/LICENSE-MIT"
+    }
+  ],
+  "dependencies": {
+    "jquery": "*"
+  },
+  "keywords": []
+}
